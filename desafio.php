@@ -106,9 +106,7 @@ function exibirRelatorio($pedido) {
         return;
     }
     
-    echo "========================================\n";
     echo "   RELATORIO DE PROCESSAMENTO DE PEDIDO\n";
-    echo "========================================\n\n";
     
     echo "PRODUTOS:\n";
     echo "----------------------------------------\n";
@@ -139,7 +137,6 @@ function exibirRelatorio($pedido) {
     echo "  --------------------------------------\n";
     echo "  VALOR FINAL: R$ " . number_format($pedido['valor_final'], 2, ',', '.') . "\n";
     
-    echo "\n========================================\n\n";
 }
 
 $pedido1 = [
